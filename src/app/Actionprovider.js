@@ -5,7 +5,7 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({
 
-    apiKey: process.env.API_KEY,
+    apiKey: process.env.OPENAI_API_KEY,
     baseURL: 'https://api.aimlapi.com/v1',
     dangerouslyAllowBrowser: true
 });
